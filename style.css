@@ -166,11 +166,9 @@ p {
 
 .sm img {
     background-color: white;
-    border-radius: 20px;
     margin-right: 5px;
     margin-top: 0;
-    margin-bottom: 5px;
-    max-width: 25px;
+    max-width: 20px;
     float: left;
 }
 
