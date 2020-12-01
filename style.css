@@ -149,6 +149,7 @@ p {
     color: #575757;
     margin-left: 0px;    
     font-size: 20px;
+    margin-bottom: 5px;
 }
 .member a {
     text-decoration: none;
@@ -161,6 +162,18 @@ p {
     max-width: 80px;
     float: left;
 }
+
+
+.sm img {
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    max-width: 25px;
+    float: left;
+}
+
 
 
 .map {
