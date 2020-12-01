@@ -6,3 +6,10 @@ RewriteRule ^ /%1 [NC,L,R]
 
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+# LEADERHEADS BEGIN
+RewriteEngine on
+Options +FollowSymLinks
+RewriteRule ^leaderboard/?$ /leaderheads/leaderboard.php  [L,NC]
+RewriteRule ^player/([^/]+)/?$ /leaderheads/stats.php?player=$1 [L,QSA,NC]
+# LEADERHEADS END
