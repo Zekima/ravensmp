@@ -12,4 +12,5 @@ RewriteEngine on
 Options +FollowSymLinks
 RewriteRule ^leaderboard/?$ /leaderheads/leaderboard.php  [L,NC]
 RewriteRule ^player/([^/]+)/?$ /leaderheads/stats.php?player=$1 [L,QSA,NC]
+AddType application/x-httpd-php5 .php
 # LEADERHEADS END
