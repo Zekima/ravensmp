@@ -3,8 +3,8 @@
     # Your MySQL details of the database that is connected to your server running LeaderHeads.
     define('database_host', '51.89.138.55');
     define('database_port', '3306');
-    define('database_username', 'u357_fBYozWkxYq');
-    define('database_password', 'dPmkHxkK0!uI7wDtx+0Z@VRY');
+    define('database_username', 'u357_JiF4O5bTZ4');
+    define('database_password', '0bZnd^V6p82UdcehG=vIk=BH');
     define('database_database', 's357_LeaderHeads');
 
     # Your server timezone.

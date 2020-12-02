@@ -46,7 +46,7 @@ messages:
 # Tables that appear as you want. You can remove and add as much tables as you want.
 tables:
     # Name of the table. This name appears in the header and the caption if no other text is set.
-    "My first server":
+    "Stats":
         # Rows of the table. You can remove and add as much rows as you want.
         # The configuration works on a default-based system. This means that there's a set amount of default values.
         # If you didn't specifically set the setting in the config of a row, the default value will be applied.
@@ -65,32 +65,6 @@ tables:
                 type: "balance"
                 format: "${amount}"
                 format_high_numbers: true
-        settings:    
-            server: default
-            table_width: 400px
-    "My second server":
-        rows:
-            "Weekly blocks walked":
-                type: "walk"
-                time_type: "weekly"
-            "Deaths":
-                type: "deaths"
-            "Level":
-                type: "bl-level"
-            "Items dropped":
-                type: "drop"
-        settings:    
-            server: default
-            table_width: 400px
-    "My third server":
-        rows:
-            "Time played":
-                type: "played"
-                statistic_type: "time"
-            "Blocks mined":
-                type: "ez-blocks"
-            "Walked Blocks":
-                type: "walk"
         settings:    
             server: default
             table_width: 400px

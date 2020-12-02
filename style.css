@@ -190,6 +190,8 @@ p {
     margin: auto;
     margin-top: 50px;
     width: 60%;
+    border-radius: 30px;
+    -webkit-border-radius: 12px; 
     height: 770px;
     background-color: white;
     min-width: 654px;
@@ -199,6 +201,11 @@ p {
 
 .map iframe {
     margin-top: 10px;
+    border-radius: 30px;
+}
+
+.stats iframe {
+    margin-top: 20px;
     border-radius: 30px;
 }
 
