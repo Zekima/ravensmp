@@ -1,5 +1,6 @@
 body {
     background-color: #4d1d9e;
+    overflow: hidden;
 }
 .header {
     margin: auto;
@@ -301,3 +302,4 @@ p {
     }
 
 }
+
