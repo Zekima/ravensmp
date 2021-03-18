@@ -145,6 +145,7 @@ p {
     flex-direction: column;
     height: auto;
     padding-top: 10px;
+    z-index: 4;
     padding-bottom: 10px;
     
 }
