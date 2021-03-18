@@ -309,7 +309,8 @@ p {
     margin: 0 auto;
     height: 150px;
     border-radius: 30px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 0px;
     background-color: #250e4d;
     text-align: center;
 }
